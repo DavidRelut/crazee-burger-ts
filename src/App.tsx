@@ -1,9 +1,8 @@
-import { FunctionComponent, useState } from "react";
+import { FunctionComponent } from "react";
+import { LoginPage } from "./components/pages/login/LoginPage";
 
 const App: FunctionComponent = () => {
-  // const [count, setCount] = useState(0);
-
-  return <div className="App">Salut !</div>;
+  return <LoginPage />;
 };
 
 export default App;

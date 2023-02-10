@@ -1,7 +1,7 @@
-import { FunctionComponent, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-export const LoginForm: FunctionComponent = () => {
+export const LoginForm = () => {
   const [inputValue, setInputValue] = useState<string>("");
   const navigate = useNavigate();
 

@@ -1,7 +1,6 @@
-import { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
 
-export const ErrorPage: FunctionComponent = () => {
+export const ErrorPage = () => {
   return (
     <div>
       <h1>ErrorPage</h1>

@@ -44,7 +44,6 @@ export const LoginForm = () => {
 };
 
 const LoginFormStyled = styled.form`
-  border: 2px solid green;
   text-align: center;
   max-width: 500px;
   min-width: 400px;

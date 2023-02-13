@@ -6,7 +6,6 @@ interface TextInputProps {
   value: string;
   onChange: React.ChangeEventHandler;
   Icon: ReactNode;
-
   placeholder?: string;
   required: boolean;
 }

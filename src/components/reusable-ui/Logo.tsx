@@ -11,8 +11,6 @@ export default function Logo() {
 }
 
 const LogoStyled = styled.div`
-  border: 2px solid red;
-
   display: flex;
   align-items: center;
   transform: scale(2.5);
@@ -30,7 +28,6 @@ const LogoStyled = styled.div`
   }
 
   img {
-    border: 2px solid blue;
     object-fit: contain;
     object-position: center;
     height: 60px;
